@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <title>Chromecast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=.9">
+    <meta name="description" content="Web Chromecast Mockup"/>
+    <link rel="icon" href="https://cdn.glitch.com/f56e487b-6b1a-4cb3-b198-ce3f1cabefd1%2Ficon.png?1541430568006">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/todo.css">
+    <script src="/script.js" defer></script>
+    <script src="/todo.js" defer></script>
+    <script src="/background-select.js" defer></script>
+    <link rel="stylesheet" href="/background-select.css">
+  </head>  
+  <body>
+    
+    <div id="todo">
+    <div class="todo bold">To Do</div>
+    <input type="text" spellcheck="false" class="reg tdinput td1" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td2" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td3" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td4" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td5" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td6" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td7" value="">
+    <input type="text" spellcheck="false" class="reg tdinput td8" value="">
+    </div>
+    
+<div class="dropdown">
+<button class="dropbtn"></button>
+<div class="dropdown-content">
+  <a onclick="bg1()" onmouseover="bg1()"></a>
+  <a onclick="bg2()" onmouseover="bg2()"></a>
+  <a onclick="bg3()" onmouseover="bg3()"></a>
+  <a onclick="bg4()" onmouseover="bg4()"></a>
+  <a onclick="bg5()" onmouseover="bg5()"></a>
+  <a onclick="bg6()" onmouseover="bg6()"></a>
+  <a onclick="bg7()" onmouseover="bg7()"></a>
+  </div>
+</div>
+    
+    <button onclick="HideToDo()" id="HideShow" class="bold HideShow"></button>
+    <input type="text" spellcheck="false" class="reg cstext" id="title" value="Chromecast">
+    <input type="text" spellcheck="false" class="bold csinfo" id="desc" value="Click to edit this text | Press the spacebar to hide the cursor">
+     <h1 id="time" class="bold cstime">
+    </h1>
+  </body>
+</html>
