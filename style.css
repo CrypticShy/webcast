@@ -1,0 +1,63 @@
+body {
+background-image: url("http://genchi.info/images/4k-wallpaper-3840x2160-13.jpg");
+background-repeat: no-repeat;
+background-size: 125%;
+}
+
+@font-face {
+    font-family: RBReg;
+    src: url(https://cdn.glitch.com/f56e487b-6b1a-4cb3-b198-ce3f1cabefd1%2FProduct%20Sans%20Regular.ttf);
+}
+
+@font-face {
+    font-family: RBBold;
+    src: url(https://cdn.glitch.com/f56e487b-6b1a-4cb3-b198-ce3f1cabefd1%2FProduct%20Sans%20Bold.ttf);
+}
+
+.bold {
+  color: white;
+ font-family: RBBold;
+}
+
+.reg {
+  color: white;
+ font-family: RBreg;
+}
+
+.cstext {
+text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+position: fixed;
+bottom: 50px;
+left: 20px;
+font-size: 40px;
+background-color: transparent;
+border: 0px;
+width: 50%;
+cursor: pointer;  
+}
+
+.csinfo {
+text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+position: fixed;
+bottom: 20px;
+left: 20px;
+font-size: 20px;
+background-color: transparent;
+border: 0px;
+width: 50%;
+color: #999999;
+cursor: pointer;  
+}
+
+.cstime {
+text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+position: fixed;
+bottom: -45px;
+right: 20px;
+font-size: 75px;
+}
+
+input:focus { outline: none; }
+button:focus { outline: none; }
+select:focus { outline: none; }
+option:focus { outline: none; }

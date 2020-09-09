@@ -1,0 +1,87 @@
+.todo {
+  height: 450px;
+  width: 300px;
+  background-color: rgba(25, 25, 25, .5);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: fixed;
+  left: 47px;
+  cursor: default;
+}
+
+.tdinput {
+position: fixed;
+text-align: center;
+left: 55px;
+font-size: 20px;
+background-color: transparent;
+border-width: 0px 2px 0px 2px;
+border-color: rgba(255, 255, 255, .75);
+border-style: solid;
+border-radius: 5px;
+vertical-align: middle;
+width: 280px;
+cursor: pointer;
+}
+
+.tdinput:hover {
+background-color: rgba(255, 255, 255, .1);
+}
+
+.tdinput:focus {
+background-color: rgba(255, 255, 255, .1);
+}
+
+.td1 {
+top: 50px;
+}
+
+.td2 {
+top: 100px;
+}
+
+.td3 {
+top: 150px;
+}
+
+.td4 {
+top: 200px;
+}
+
+.td5 {
+top: 250px;
+}
+
+.td6 {
+top: 300px;
+}
+
+.td7 {
+top: 350px;
+}
+
+.td8 {
+top: 400px;
+}
+
+.HideShow {
+border: 0px;
+position: fixed;
+left: 7px;
+top: 10px;
+height: 30px;
+width: 30px;
+background-color: rgba(25, 25, 25, .5);
+border-radius: 15px;
+text-align: center;
+font-size: 15px;
+color: #ffffff;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+cursor: pointer;
+}
+
+.HideShow:hover {
+background-color: rgba(255, 255, 255, .1);
+}
